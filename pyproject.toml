@@ -1,4 +1,4 @@
 [tool.black]
-line-length = 88
+line-length = 79
 target-version = ['py37']
 exclude = '.env|venv|types_derived.py|migrations'

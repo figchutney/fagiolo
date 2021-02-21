@@ -5,4 +5,5 @@ isort
 mypy
 pip-tools
 pytest
+python-dotenv
 safety
