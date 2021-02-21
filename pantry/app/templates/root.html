@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% block content %}
+<div class="form">
+  <form method="POST" action="{{ url_for('root') }}" id="form">
+    <div class="label-top">
+      <label for="meals"> I want </label>
+    </div>
+    <div class="input-and-buttons">
+      <button
+        type="button"
+        onclick="this.parentNode.querySelector('[type=number]').stepDown();document.getElementById('form').submit();"
+      >
+        -
+      </button>
+      <input
+        readonly
+        type="number"
+        min="1"
+        max="14"
+        step="1"
+        id="meals"
+        name="meals"
+        value="{{ number_of_meals }}"
+        required
+      />
+      <button
+        type="button"
+        onclick="this.parentNode.querySelector('[type=number]').stepUp();document.getElementById('form').submit();"
+      >
+        +
+      </button>
+    </div>
+    <div class="label-bottom">
+      <label for="number-of-meals"> meals </label>
+    </div>
+  </form>
+</div>
+<div class="response">
+  <div class="table-container">
+    <table>
+      {% for meal in selections %}
+      <tr>
+        <td class="meal-name">
+          <strong>{{ (meal.name|beautify_underscores).title() }}</strong>
+        </td>
+        <td class="ingredients">
+          {{ (", ".join(meal.ingredients))|beautify_underscores }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+{% endblock %}
