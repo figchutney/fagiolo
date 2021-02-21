@@ -1,10 +1,7 @@
 from flask import render_template, request
 
 from pantry.app import app
-from pantry.app_services.generate import (
-    generate_menu,
-    generate_meal_choices,
-)
+from pantry.app_services.generate import generate_meal_choices, generate_menu
 
 
 @app.route("/", methods=["POST", "GET"])

@@ -1,8 +1,8 @@
-from dataclasses import dataclass
-from typing import List
-from random import shuffle
-from pathlib import Path
 import json
+from dataclasses import dataclass
+from pathlib import Path
+from random import shuffle
+from typing import List
 
 MEAL_DATA = "meal_bank.json"
 
