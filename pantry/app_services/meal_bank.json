@@ -1,0 +1,334 @@
+{
+  "chilli_garlic_oil_pasta": {
+    "name": "chilli_garlic_oil_pasta",
+    "ingredients": ["pasta", "chilli", "garlic", "olive_oil"]
+  },
+  "creamy_mushroom_pasta": {
+    "name": "creamy_mushroom_pasta",
+    "ingredients": ["pasta", "mushroom", "double_cream", "garlic", "parmesan"]
+  },
+  "halloumi_naan_bread": {
+    "name": "halloumi_naan_bread",
+    "ingredients": [
+      "naan_bread",
+      "halloumi",
+      "humous",
+      "pickled_cabbage",
+      "tomato",
+      "cucumber"
+    ]
+  },
+  "oven_pizza": {
+    "name": "oven_pizza",
+    "ingredients": ["oven_pizza"]
+  },
+  "spaghetti_bolognese": {
+    "name": "spaghetti_bolognese",
+    "ingredients": ["spaghetti", "minced_beef", "carrot", "celery", "red_onion"]
+  },
+  "paella": {
+    "name": "paella",
+    "ingredients": [
+      "paella_rice",
+      "white_wine",
+      "vegetable_stock",
+      "red_pepper",
+      "prawns",
+      "chorizo",
+      "paprika",
+      "white_onion"
+    ]
+  },
+  "chilli": {
+    "name": "chilli",
+    "ingredients": [
+      "beans_in_chilli_sauce",
+      "basmati_rice",
+      "tinned_tomatoes",
+      "minced_beef",
+      "carrot",
+      "celery",
+      "cheddar_cheese"
+    ]
+  },
+  "creamy_borccoli_risotto": {
+    "name": "creamy_borccoli_risotto",
+    "ingredients": [
+      "vegetable_stock",
+      "broccoli",
+      "white_onion",
+      "risotto_rice",
+      "parsley",
+      "lemon",
+      "gorgonzola"
+    ]
+  },
+  "cauliflower_chickpea_curry": {
+    "name": "cauliflower_chickpea_curry",
+    "ingredients": [
+      "cauliflower",
+      "curry_paste",
+      "self_raising_flower",
+      "chickpeas",
+      "coconut_milk",
+      "tomato",
+      "mango_chutney",
+      "naan_bread"
+    ]
+  },
+  "cauliflower_risotto": {
+    "name": "cauliflower_risotto",
+    "ingredients": [
+      "white_onion",
+      "cauliflower",
+      "thyme",
+      "vegetable_stock",
+      "risotto_rice",
+      "parmesan",
+      "prosciutto"
+    ]
+  },
+  "tarts": {
+    "name": "tarts",
+    "ingredients": [
+      "puff_pastry",
+      "red_onion",
+      "goats_cheese",
+      "red_pepper",
+      "courgette",
+      "mozzarella",
+      "pesto",
+      "salad"
+    ]
+  },
+  "jerk_chicken_burger": {
+    "name": "jerk_chicken_burger",
+    "ingredients": [
+      "red_chilli",
+      "chicken_breast",
+      "jerk_seasoning",
+      "tinned_pineapple_rings",
+      "carrot",
+      "white_cabbage",
+      "natural_yoghurt",
+      "brioche_buns"
+    ]
+  },
+  "halloumi_burgers": {
+    "name": "halloumi_burgers",
+    "ingredients": [
+      "halloumi",
+      "aubergine",
+      "red_pepper",
+      "mayonaise",
+      "harissa_paste",
+      "sweet_potato",
+      "brioche_buns"
+    ]
+  },
+  "salmon_tacos": {
+    "name": "salmon_tacos",
+    "ingredients": [
+      "tomato",
+      "mango",
+      "avocado",
+      "spring_onion",
+      "salmon",
+      "cajun_seasoning",
+      "tortillas",
+      "limes"
+    ]
+  },
+  "sausage_and_mash": {
+    "name": "sausage_and_mash",
+    "ingredients": [
+      "sausage",
+      "potato",
+      "broccoli",
+      "red_onion",
+      "vegetable_stock"
+    ]
+  },
+  "stuffed_peppers": {
+    "name": "stuffed_peppers",
+    "ingredients": ["red_pepper", "spicy_rice", "olives", "feta", "salad"]
+  },
+  "stuffed_mushrooms": {
+    "name": "stuffed_mushrooms",
+    "ingredients": [
+      "mushroom",
+      "ricotta",
+      "chilli",
+      "oregano",
+      "lemon",
+      "salad"
+    ]
+  },
+  "greek_salad_pasta": {
+    "name": "greek_salad_pasta",
+    "ingredients": ["pasta", "olives", "cucumber", "feta", "tomato"]
+  },
+  "mushroom_cannelloni": {
+    "name": "mushroom_cannelloni",
+    "ingredients": [
+      "cannelloni",
+      "white_onion",
+      "garlic",
+      "leek",
+      "mushroom",
+      "plain_flour",
+      "milk",
+      "cheddar_cheese"
+    ]
+  },
+  "mushroom_cacio_pepe": {
+    "name": "mushroom_cacio_pepe",
+    "ingredients": ["spaghetti", "parmesan", "mushroom", "truffle_oil", "lemon"]
+  },
+  "lentil_sweet_potato_curry": {
+    "name": "lentil_sweet_potato_curry",
+    "ingredients": [
+      "red_onion",
+      "cumin_seeds",
+      "mustard_seeds",
+      "curry_powder",
+      "lentils",
+      "sweet_potato",
+      "vegetable_stock",
+      "tinned_tomatoes",
+      "chickpeas",
+      "corriander",
+      "natural_yoghurt",
+      "naan_bread"
+    ]
+  },
+  "spicy_cauliflower_pasta": {
+    "name": "spicy_cauliflower_pasta",
+    "ingredients": [
+      "cauliflower",
+      "pasta",
+      "garlic",
+      "chilli",
+      "pine_nuts",
+      "lemon",
+      "parsley",
+      "parmesan"
+    ]
+  },
+  "leek_mushroom_risotto": {
+    "name": "leek_mushroom_risotto",
+    "ingredients": [
+      "leek",
+      "garlic",
+      "risotto_rice",
+      "vegetable_stock",
+      "mushroom",
+      "parmesan"
+    ]
+  },
+  "tomato_basil_mozzarella_pasta": {
+    "name": "tomato_basil_mozzarella_pasta",
+    "ingredients": ["pasta", "tomato", "mozzarella", "basil"]
+  },
+  "mushroom_risotto": {
+    "name": "mushroom_risotto",
+    "ingredients": [
+      "risotto_rice",
+      "vegetable_stock",
+      "mushroom",
+      "dried_mushrooms",
+      "parmesan"
+    ]
+  },
+  "sunshine_pasta": {
+    "name": "sunshine_pasta",
+    "ingredients": [
+      "pasta",
+      "white_onion",
+      "garlic",
+      "white_wine_vinegar",
+      "yellow_pepper",
+      "pistachio",
+      "parmesan"
+    ]
+  },
+  "courgette_bow_ties": {
+    "name": "courgette_bow_ties",
+    "ingredients": [
+      "farfalle",
+      "garlic",
+      "chilli",
+      "fennel_seeds",
+      "courgette",
+      "single_cream",
+      "parmesan"
+    ]
+  },
+  "chickpea_chorizo_stew": {
+    "name": "chickpea_chorizo_stew",
+    "ingredients": [
+      "tinned_tomatoes",
+      "chorizo",
+      "red_onion",
+      "red_pepper",
+      "garlic",
+      "paprika",
+      "chickpeas",
+      "rice"
+    ]
+  },
+  "cougette_prawn_orzo": {
+    "name": "cougette_prawn_orzo",
+    "ingredients": [
+      "courgette",
+      "orzo",
+      "white_onion",
+      "vegetable_stock",
+      "garlic",
+      "prawns",
+      "paprika",
+      "lemon",
+      "parsley"
+    ]
+  },
+  "ratatouille_risotto": {
+    "name": "ratatouille_risotto",
+    "ingredients": [
+      "aubergine",
+      "oregano",
+      "vegetable_stock",
+      "tomato",
+      "white_onion",
+      "cheddar_cheese",
+      "tomato_puree",
+      "courgette",
+      "yellow_pepper",
+      "garlic",
+      "basil",
+      "risotto_rice"
+    ]
+  },
+  "sairs_spicy_rice": {
+    "name": "sairs_spicy_rice",
+    "ingredients": [
+      "spicy_rice",
+      "red_pepper",
+      "chorizo",
+      "courgette",
+      "sweetcorn",
+      "paprika"
+    ]
+  },
+  "curry_in_a_hurry": {
+    "name": "curry_in_a_hurry",
+    "ingredients": [
+      "pilau_rice",
+      "curry_powder",
+      "spinach",
+      "red_pepper",
+      "courgette",
+      "lime",
+      "mango_chutney"
+    ]
+  }
+}
