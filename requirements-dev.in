@@ -1,8 +1,12 @@
 bandit
 black
+beautifulsoup4
+bs4
 flake8
 isort
 mypy
 pip-tools
 pytest
+pytest-cov
+python-dotenv
 safety
