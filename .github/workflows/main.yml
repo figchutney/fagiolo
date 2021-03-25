@@ -33,7 +33,7 @@ jobs:
     - name: Check code security with `bandit`
       run: |
         bandit -r . -lll -iii
-    - name: Check dependency security with `security`
+    - name: Check dependency security with `safety`
       run: |
         safety check --full-report --file=requirements-dev.txt
     - name: Check type safety with `mypy`

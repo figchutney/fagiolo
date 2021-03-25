@@ -26,7 +26,7 @@ echo
 bandit -r . --exclude ./.env,./venv -lll -iii
 
 echo "----------------------------------------------------------------"
-echo "> Security (Dependencies): security"
+echo "> Security (Dependencies): safety"
 echo
 safety check --full-report --file=requirements.txt
 
