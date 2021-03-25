@@ -1,13 +1,13 @@
 {% extends 'base.html' %} {% block content %}
 <div class="form">
-  <form method="POST" action="{{ url_for('root') }}" id="form">
+  <form method="POST" action="{{ url_for('root') }}" id="form-main">
     <div class="label-top">
       <label for="meals"> I want </label>
     </div>
     <div class="input-and-buttons">
       <button
         type="button"
-        onclick="this.parentNode.querySelector('[type=number]').stepDown();document.getElementById('form').submit();"
+        onclick="this.parentNode.querySelector('[type=number]').stepDown();document.getElementById('form-main').submit();"
       >
         -
       </button>
@@ -24,7 +24,7 @@
       />
       <button
         type="button"
-        onclick="this.parentNode.querySelector('[type=number]').stepUp();document.getElementById('form').submit();"
+        onclick="this.parentNode.querySelector('[type=number]').stepUp();document.getElementById('form-main').submit();"
       >
         +
       </button>
@@ -37,14 +37,42 @@
 <div class="response">
   <div class="table-container">
     <table>
-      {% for meal in selections %}
+      {% for meal in selection %}
       <tr>
         <td class="meal-name">
-          <strong>{{ (meal.name|beautify_underscores).title() }}</strong>
+          <strong>{{ (meal.name|beautify_enum).title() }}</strong>
         </td>
         <td class="ingredients">
-          {{ (", ".join(meal.ingredients))|beautify_underscores }}
+          {% for ingredient in meal.ingredients %}{{
+          ingredient|beautify_enum}}{{ ", " if not loop.last else "" }}{{ endif
+          }}{% endfor %}
         </td>
+        <form method="POST" action="{{ url_for('root') }}" id="form-swap">
+          <td class="swap">
+            <input
+              type="hidden"
+              id="selection"
+              name="selection"
+              value="{{ selection }}"
+              readonly
+            />
+            <input
+              type="hidden"
+              id="meal-to-swap"
+              name="meal-to-swap"
+              value="{{ meal }}"
+              readonly
+            />
+            <input
+              type="hidden"
+              id="number-of-meals"
+              name="number-of-meals"
+              value="{{ number_of_meals }}"
+              readonly
+            />
+            <button id="swap-button" type="submit">⟳</button>
+          </td>
+        </form>
       </tr>
       {% endfor %}
     </table>
