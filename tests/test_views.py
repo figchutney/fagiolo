@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from flask.testing import FlaskClient
 
-from pantry.testing import (
+from fagiolo.testing import (
     ingredient_string_to_enum_multiple,
     meal_name_string_to_enum,
 )

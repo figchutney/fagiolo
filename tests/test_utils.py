@@ -1,9 +1,9 @@
 import pytest
 
-from pantry.app import utils
-from pantry.app.menu import Meal
-from pantry.core.exceptions import ParseError
-from pantry.core.types import Ingredient, MealName
+from fagiolo.app import utils
+from fagiolo.app.menu import Meal
+from fagiolo.core.exceptions import ParseError
+from fagiolo.core.types import Ingredient, MealName
 
 from .data import DUMMY_MEAL_TO_SWAP_STRING, DUMMY_SELECTION_STRING
 
