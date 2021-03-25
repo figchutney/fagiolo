@@ -1,1 +1,1 @@
-web gunicorn fagiolo.fagiolo:app
+web: gunicorn fagiolo.fagiolo:app
