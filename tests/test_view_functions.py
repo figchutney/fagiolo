@@ -2,8 +2,8 @@ import copy
 
 import pytest
 
-from pantry.app import view_functions
-from pantry.app.menu import MENU
+from fagiolo.app import view_functions
+from fagiolo.app.menu import MENU
 
 from .data import (
     DUMMY_MEAL_TO_SWAP,

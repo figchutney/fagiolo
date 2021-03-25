@@ -9,14 +9,14 @@ def parse_requirements(filename):
 
 
 setuptools.setup(
-    name="pantry",
+    name="fagiolo",
     version="0.0.1",
     author="figchutney",
     author_email="fig.chutney8@gmail.com",
     description="Weekly meal choice automator",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/figchutney/pantry",
+    url="https://github.com/figchutney/fagiolo",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

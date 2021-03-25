@@ -1,2 +1,2 @@
-FLASK_APP=pantry.pantry.py
+FLASK_APP=fagiolo.fagiolo.py
 FLASK_ENV=development
