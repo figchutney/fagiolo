@@ -1,11 +1,14 @@
+import enum
+from typing import cast
+
 from flask import Flask
 
 app = Flask(__name__)
 
 
-@app.template_filter("beautify_underscores")
-def beautify_underscores(string):
-    return string.lower().replace("_", " ")
+@app.template_filter("beautify_enum")
+def beautify_enum(enum_member: enum.Enum) -> str:
+    return cast(str, enum_member.value.lower().replace("_", " "))
 
 
-from pantry.app import routes  # noqa E402
+from pantry.app import views  # noqa E402
