@@ -1,1 +1,1 @@
-web: gunicorn fagiolo.app:app --preload
+web: gunicorn fagiolo.fagiolo:app --preload
