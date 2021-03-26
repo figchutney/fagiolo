@@ -19,6 +19,7 @@ flake8==3.8.4             # via -r -
 flask==1.1.2              # via -r -
 gitdb==4.0.5              # via gitpython
 gitpython==3.1.11         # via bandit
+gunicorn==20.0.4          # via -r -
 idna==2.10                # via requests
 iniconfig==1.1.1          # via pytest
 isort==5.6.4              # via -r -
@@ -40,7 +41,7 @@ pyparsing==2.4.7          # via packaging
 pytest-cov==2.11.1        # via -r -
 pytest==6.2.1             # via -r -, pytest-cov
 python-dotenv==0.15.0     # via -r -
-pyyaml>=5.4             # via bandit, dparse
+pyyaml==5.4.1             # via bandit, dparse
 regex==2020.11.13         # via black
 requests==2.25.1          # via safety
 safety==1.10.0            # via -r -
