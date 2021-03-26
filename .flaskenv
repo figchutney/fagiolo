@@ -1,2 +1,2 @@
-FLASK_APP=fagiolo.fagiolo.py
+FLASK_APP=fagiolo.app:app
 FLASK_ENV=development
