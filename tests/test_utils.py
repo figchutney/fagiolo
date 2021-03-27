@@ -128,7 +128,7 @@ def test_convert_meal_string_to_meal_multiple():
         Meal(
             name=MealName.JERK_CHICKEN_BURGER,
             ingredients=[
-                Ingredient.RED_CHILLI,
+                Ingredient.CHILLI,
                 Ingredient.CHICKEN_BREAST,
                 Ingredient.JERK_SEASONING,
                 Ingredient.TINNED_PINEAPPLE_RINGS,
