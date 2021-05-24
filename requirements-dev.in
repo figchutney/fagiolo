@@ -9,4 +9,4 @@ pip-tools
 pytest
 pytest-cov
 python-dotenv
-safety
+safety>=1.10.3
