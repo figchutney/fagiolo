@@ -2,8 +2,6 @@
 
 A weekly meal choice automator 🤖🥘
 
-👉 Have a play around at https://fagiolo.herokuapp.com/
-
 https://user-images.githubusercontent.com/52138939/119268111-60c17f80-bbe9-11eb-8c89-afa30b641239.mov
 
 - [`fagiolo` 🥘](#fagiolo-)
